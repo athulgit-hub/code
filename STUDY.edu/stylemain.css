@@ -5,7 +5,8 @@
 
 .main {
     min-height: 100vh;
-    width: 100vh;
+    min-width: 100vw;
+    /* max-width: 100%; */
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url("images/main\ image.jpg");
     background-position: center;
     background-size: cover;
@@ -13,7 +14,7 @@
     position: relative;
 }
 
-//position s
+/* //position s */
 .navbar {
     width: 100%;
     height: 75px;
@@ -75,7 +76,7 @@ ul li a:hover {
     margin: auto;
     justify-content: auto;
     color: rgb(255, 255, 255);
-    position: absolute;
+    /* position: absolute; */
 }
 
 .content para {
@@ -249,5 +250,11 @@ button {
 }
 
 .banner {
-    width: 133vh;
+    width: 100%;
+}
+
+.banner-img{
+  max-width: 100%;
+  float: left;
+  clear: both;
 }
